@@ -1,0 +1,22 @@
+{
+  "apps": [{
+    "name": "app1",
+    "script": "bin/www",
+    "node_args": ['--debug=7000'],
+    "instances": 1,
+    "exec_mode": "fork",
+    "env": {
+      "NODE_ENV": "dev",
+      "PORT": "3000"
+    },
+    "env_production" : {
+      "NODE_ENV": "production",
+      "PORT": "3000"
+    },
+    "log_file": "access.log",
+    "error_file": "error.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "watch": true,
+    "ignore_watch": [""]
+  }]
+}

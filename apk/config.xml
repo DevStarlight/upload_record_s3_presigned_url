@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="xxxxx.com" version="0.0.1" xmlns="http://www.w3.org/ns/widgets">
+    <name>app1</name>
+    <description>xxxxxxxxxxx</description>
+    <author email="support@admin.co" href="http://xxxxxxxxx.com">app</author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AndroidLaunchMode" value="singleInstance" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="cordova-plugin-statusbar" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <engine name="android" spec="~5.2.1" />
+    <plugin name="cordova-plugin-camera" spec="~2.2.0" />
+    <plugin name="cordova-plugin-media-capture" spec="~1.3.0" />
+    <plugin name="cordova-plugin-file-transfer" spec="~1.6.0" />
+</widget>

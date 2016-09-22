@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "app.js",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "ngCordova": "^0.1.27-alpha"
+  }
+}
